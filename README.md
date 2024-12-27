@@ -1,12 +1,12 @@
-# 🎓📚 MD-11 Alumni 🎉✨
+# 🎓📚 MD-32 Alumni 🎉✨
 
-Selamat datang di proyek **MD-11 Alumni**! 📖👩‍🎓👨‍🎓
+Selamat datang di proyek **MD-32 Alumni**! 📖👩‍🎓👨‍🎓
 
-Proyek ini bertujuan untuk menampilkan buku alumni Bangkit 2024 kelas MD-11 dengan informasi seperti foto, nama, asal kampus, dan link ke Instagram serta LinkedIn. 🌟
+Proyek ini bertujuan untuk menampilkan buku alumni Bangkit 2024 Batch 2 kelas MD-32 dengan informasi seperti foto, nama, asal kampus, dan link ke Instagram serta LinkedIn. 🌟
 
 ## 🚀 Demo
 
-Anda dapat melihat demo proyek ini [di sini](https://emdileven.github.io) 🖥️🎨
+Anda dapat melihat demo proyek ini [di sini](https://md32.github.io) 🖥️🎨
 
 ## 🛠️ Teknologi yang Digunakan
 
@@ -31,13 +31,13 @@ Ikuti langkah-langkah di bawah ini untuk menjalankan proyek ini di lokal Anda:
 1. **Clone repositori ini:**
 
     ```bash
-    git clone https://github.com/emdileven/emdileven.github.io.git
+    git clone https://github.com/md32/md32.github.io.git
     ```
 
 2. **Pindah ke direktori proyek:**
 
     ```bash
-    cd emdileven.github.io/
+    cd md32.github.io/
     ```
 
 3. **Buka `index.html` di browser favorit Anda:**
@@ -59,7 +59,6 @@ Untuk menambahkan data alumni baru, edit file `script.js` dan tambahkan objek ba
 ```javascript
 const alumniData = [
     {
-        name: "Nama Alumni",
         nickname: "Nama Panggilan",
         campus: "Asal Kampus",
         ig: "Link Instagram",
