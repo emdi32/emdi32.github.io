@@ -1,7 +1,7 @@
 const alumniData = [
     {
         "nickname": "Adrian",
-        "campus": "Nama Universitas",
+        "campus": "Universitas Trisakti",
         "ig": "",
         "linkedin": "",
         "photo": ""
@@ -15,7 +15,7 @@ const alumniData = [
     },
     {
         "nickname": "Akbar",
-        "campus": "Nama Universitas",
+        "campus": "Universitas Singaperbangsa",
         "ig": "",
         "linkedin": "",
         "photo": ""
@@ -31,7 +31,7 @@ const alumniData = [
         "nickname": "Candra",
         "campus": "Universitas Negeri Surabaya",
         "ig": "https://instagram.com/cbar_bagus",
-        "linkedin": "www.linkedin.com/in/candra-bagus-ainur-rochman",
+        "linkedin": "https://www.linkedin.com/in/candra-bagus-ainur-rochman",
         "photo": "https://lh3.googleusercontent.com/d/1NrMN8vVGGR3WXCw_vS7k0gSZlp9blUJD"
     },
     {
@@ -43,10 +43,10 @@ const alumniData = [
     },
     {
         "nickname": "Eko",
-        "campus": "Nama Universitas",
-        "ig": "",
-        "linkedin": "",
-        "photo": ""
+        "campus": "Universitas Terbuka",
+        "ig": "https://www.instagram.com/one.eko",
+        "linkedin": "https://www.linkedin.com/in/eko-kurnia",
+        "photo": "https://lh3.googleusercontent.com/d/1J2CrQrwLytjfOxn2TVNhEFm4O3sjQ0V5"
     },
     {
         "nickname": "Falih",
@@ -70,11 +70,11 @@ const alumniData = [
         "photo": "https://lh3.googleusercontent.com/d/1eeoSVf35wIwx3z5bJccX22u037IBpKOq"
     },
     {
-        "nickname": "Melda",
-        "campus": "Nama Universitas",
-        "ig": "",
-        "linkedin": "",
-        "photo": ""
+        "nickname": "Imelda",
+        "campus": "Universitas Telkom Purwokerto",
+        "ig": "https://www.instagram.com/imeldaapd_",
+        "linkedin": "https://www.linkedin.com/in/imeldapdd/",
+        "photo": "https://lh3.googleusercontent.com/d/1d-zbP4sO8W4AnO-FdHMTutV0m25USVsl"
     },
     {
         "nickname": "Anin",
@@ -99,21 +99,21 @@ const alumniData = [
     },
     {
         "nickname": "Ardi",
-        "campus": "Nama Universitas",
-        "ig": "",
-        "linkedin": "",
-        "photo": ""
+        "campus": "Universitas Islam Riau",
+        "ig": "https://www.instagram.com/ardiansyah_rlrl?igsh=MzMyeDFmdDFjdXA5",
+        "linkedin": "https://www.linkedin.com/in/muhammad-ardiansyah-9547282a4",
+        "photo": "https://lh3.googleusercontent.com/d/1p1eWlDIQPKBEe8OdDKT67YEfM4Y2uW8P"
     },
     {
         "nickname": "Jalil",
-        "campus": "Nama Universitas",
-        "ig": "",
-        "linkedin": "",
-        "photo": ""
+        "campus": "Universitas Raharja",
+        "ig": "https://www.instagram.com/jalilasyakur?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+        "linkedin": "https://www.linkedin.com/in/jalilasyakur/",
+        "photo": "https://lh3.googleusercontent.com/d/1QlSuHHKrLqIFEe09XWkgBAg78WY8AFwF"
     },
     {
         "nickname": "Rizki",
-        "campus": "Nama Universitas",
+        "campus": "Politeknik Negeri Jakarta",
         "ig": "",
         "linkedin": "",
         "photo": ""
@@ -121,7 +121,7 @@ const alumniData = [
     {
         "nickname": "Narapati",
         "campus": "Universitas Pasundan",
-        "ig": "www.instagram.com/lio_keysa24/",
+        "ig": "https://www.instagram.com/lio_keysa24/",
         "linkedin": "https://www.linkedin.com/in/narapati-keysa/",
         "photo": "https://lh3.googleusercontent.com/d/1jSdjX-H5uGwX_Z-5dlXksU2zdOZRW3Im"
     },
@@ -129,15 +129,15 @@ const alumniData = [
         "nickname": "Danang",
         "campus": "Universitas Singaperbangsa Karawang",
         "ig": "https://www.instagram.com/prdnwhyu_",
-        "linkedin": "www.linkedin.com/in/pradana-wahyu-hidayanto",
+        "linkedin": "https://www.linkedin.com/in/pradana-wahyu-hidayanto",
         "photo": "https://lh3.googleusercontent.com/d/1db1Y55n54t8LAIw51rg36FRZkmOQ8V9c"
     },
     {
         "nickname": "Raja",
-        "campus": "Nama Universitas",
-        "ig": "",
-        "linkedin": "",
-        "photo": ""
+        "campus": "Universitas Riau",
+        "ig": "https://www.instagram.com/ptrarmnd/",
+        "linkedin": "https://www.linkedin.com/authwall?trk=gf&trkInfo=AQFvDFGmoSQXFgAAAZQGznfwIs_qzxCHIF4ek8okkEg-Vg-pMxYE5LulH-qg1XANcfWZc5kr5Wc5SimgkI3M7SQuTG8YVdKF_Y7AIa0OT-HLCNcNOGwXpN0UEY_neIUWK2jCOvs=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fptr4rmnd",
+        "photo": "https://lh3.googleusercontent.com/d/1LnxFygTQV2pBWTHdLLV-qX060z5uguvl"
     },
     {
         "nickname": "Reza",
@@ -150,19 +150,19 @@ const alumniData = [
         "nickname": "Ryan",
         "campus": "Universitas Teknologi Bandung",
         "ig": "https://www.instagram.com/ryan.rizaldy99/",
-        "linkedin": "www.linkedin.com/in/ryan-rizaldy-a00164251",
+        "linkedin": "https://www.linkedin.com/in/ryan-rizaldy-a00164251",
         "photo": "https://lh3.googleusercontent.com/d/1Sr0K5forzHoIJ7SKU8BBBCATx4PLAOvb"
     },
     {
         "nickname": "Tika",
-        "campus": "Nama Universitas",
-        "ig": "",
-        "linkedin": "",
-        "photo": ""
+        "campus": "Universitas Nusa Putra",
+        "ig": "https://www.instagram.com/nrvti_ka/profilecard/?igsh=ZDY2NXdoZmF6NXRk",
+        "linkedin": "https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile",
+        "photo": "https://lh3.googleusercontent.com/d/1VPGLTr1XEg7HCc24ZumIfr9IZE8jz4Mw"
     },
     {
         "nickname": "Abel",
-        "campus": "Nama Universitas",
+        "campus": "Universitas Indonesia",
         "ig": "",
         "linkedin": "",
         "photo": ""
