@@ -136,8 +136,9 @@ const alumniData = [
         "nickname": "Raja",
         "campus": "Universitas Riau",
         "ig": "https://www.instagram.com/ptrarmnd/",
-        "linkedin": "https://www.linkedin.com/authwall?trk=gf&trkInfo=AQFvDFGmoSQXFgAAAZQGznfwIs_qzxCHIF4ek8okkEg-Vg-pMxYE5LulH-qg1XANcfWZc5kr5Wc5SimgkI3M7SQuTG8YVdKF_Y7AIa0OT-HLCNcNOGwXpN0UEY_neIUWK2jCOvs=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fptr4rmnd",
-        "photo": "https://lh3.googleusercontent.com/d/1LnxFygTQV2pBWTHdLLV-qX060z5uguvl"
+        "linkedin": "https://www.linkedin.com/in/ptr4rmnd/",
+        "website": "https://www.ramandaputra.site/",
+        "photo": "https://lh3.googleusercontent.com/a/ACg8ocLEzLHqQaw6SiVr08a_EAz24D9wAoEAGlGvvjXcmB0fRY3G0pw8h3cizOZXEt6HFV-PykEU7xBgQndDpcexZneZ5QR64ePW=s360-c-no"
     },
     {
         "nickname": "Reza",
@@ -239,6 +240,14 @@ function createAlumniCard(alumni) {
     linkedinLink.textContent = 'LinkedIn';
     linkedinLink.target = '_blank';
 
+    if (alumni.website) {
+        const websiteLink = document.createElement('a');
+        websiteLink.href = alumni.website;
+        websiteLink.textContent = 'Website';
+        websiteLink.target = '_blank';
+        links.appendChild(websiteLink);
+    }
+    
     links.appendChild(igLink);
     links.appendChild(separator);
     links.appendChild(linkedinLink);
@@ -247,7 +256,6 @@ function createAlumniCard(alumni) {
     card.appendChild(name);
     card.appendChild(campus);
     card.appendChild(links);
-    
     col.appendChild(card);
     return col;
 }
