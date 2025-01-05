@@ -6,7 +6,7 @@ Proyek ini bertujuan untuk menampilkan buku alumni Bangkit 2024 Batch 2 kelas MD
 
 ## 🚀 Demo
 
-Anda dapat melihat demo proyek ini [di sini](https://md32.github.io) 🖥️🎨
+Anda dapat melihat demo proyek ini [di sini](https://emdi32.github.io) 🖥️🎨
 
 ## 🛠️ Teknologi yang Digunakan
 
@@ -31,13 +31,13 @@ Ikuti langkah-langkah di bawah ini untuk menjalankan proyek ini di lokal Anda:
 1. **Clone repositori ini:**
 
     ```bash
-    git clone https://github.com/md32/md32.github.io.git
+    git clone https://github.com/emdi32/emdi32.github.io.git
     ```
 
 2. **Pindah ke direktori proyek:**
 
     ```bash
-    cd md32.github.io/
+    cd emdi32.github.io/
     ```
 
 3. **Buka `index.html` di browser favorit Anda:**
