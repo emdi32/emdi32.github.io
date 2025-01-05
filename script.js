@@ -134,10 +134,11 @@ const alumniData = [
     },
     {
         "nickname": "Raja",
-        "campus": "Nama Universitas",
-        "ig": "",
-        "linkedin": "",
-        "photo": ""
+        "campus": "Universitas Riau",
+        "ig": "https://www.instagram.com/ptrarmnd/",
+        "linkedin": "https://www.linkedin.com/in/ptr4rmnd/",
+        "website": "https://www.ramandaputra.site/",
+        "photo": "https://lh3.googleusercontent.com/a/ACg8ocLEzLHqQaw6SiVr08a_EAz24D9wAoEAGlGvvjXcmB0fRY3G0pw8h3cizOZXEt6HFV-PykEU7xBgQndDpcexZneZ5QR64ePW=s360-c-no"
     },
     {
         "nickname": "Reza",
@@ -239,6 +240,14 @@ function createAlumniCard(alumni) {
     linkedinLink.textContent = 'LinkedIn';
     linkedinLink.target = '_blank';
 
+    if (alumni.website) {
+        const websiteLink = document.createElement('a');
+        websiteLink.href = alumni.website;
+        websiteLink.textContent = 'Website';
+        websiteLink.target = '_blank';
+        links.appendChild(websiteLink);
+    }
+    
     links.appendChild(igLink);
     links.appendChild(separator);
     links.appendChild(linkedinLink);
@@ -247,7 +256,6 @@ function createAlumniCard(alumni) {
     card.appendChild(name);
     card.appendChild(campus);
     card.appendChild(links);
-    
     col.appendChild(card);
     return col;
 }
